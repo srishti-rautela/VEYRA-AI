@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# ML weights
+*.pt
+
+# React
+node_modules/
+dist/
+
+# Tests
+.coverage
+htmlcov/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
