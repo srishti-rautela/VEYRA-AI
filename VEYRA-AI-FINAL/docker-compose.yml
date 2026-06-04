@@ -1,0 +1,22 @@
+
+
+services:
+
+  veyra-api:
+
+    build: .
+
+    container_name: veyra-ai-api
+
+
+    ports:
+
+      - "8000:8000"
+
+
+    volumes:
+
+      - ./frontend/public/detections:/veyra/frontend/public/detections
+
+
+    restart: always
