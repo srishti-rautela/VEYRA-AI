@@ -1,5 +1,5 @@
 """
-run_pipeline.py — Windows-friendly detection pipeline runner.
+run_pipeline.py — Windows-friendly_detection pipeline runner.
 
 Usage (from store-intelligence directory):
   python run_pipeline.py
